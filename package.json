@@ -69,9 +69,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw-build": "tailwind -i ./assets/src/input.css -o ./assets/dist/output.css",
-    "tw-auto": "tailwind -i ./assets/src/input.css -o ./assets/dist/output.css --watch",
-    "gh-pages": "gh-pages -d assets"
+    "tw-build": "npx tailwind -i ./src/css/input.css -o ./dist/css/output.css",
+    "tw-purge": "npx tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --minify",
+    "tw-auto": "npx tailwind -i ./src/css/input.css -o ./dist/css/output.css --watch",
+    "gh-pages": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
