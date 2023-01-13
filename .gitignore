@@ -103,5 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-# Files
+# Files -- no funciona
 src/css/input.css
