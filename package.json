@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "tailwindcss": "^3.2.4"
   },
   "name": "nk-travel",
@@ -68,8 +69,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw-build": "tailwind -i ./src/input.css -o ./dist/output.css",
-    "tw-auto": "tailwind -i ./src/input.css -o ./dist/output.css --watch"
+    "tw-build": "tailwind -i ./assets/src/input.css -o ./assets/dist/output.css",
+    "tw-auto": "tailwind -i ./assets/src/input.css -o ./assets/dist/output.css --watch",
+    "gh-pages": "gh-pages -d assets"
   },
   "repository": {
     "type": "git",
