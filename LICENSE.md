@@ -1,6 +1,6 @@
 ### Licencia de Software Propietario
 
-Copyright (c) [2023] [Carolina Chavarriaga]
+Copyright (c) 2023 Carolina Chavarriaga
 
 Se concede permiso de utilizar este software con las siguientes restricciones:
 
