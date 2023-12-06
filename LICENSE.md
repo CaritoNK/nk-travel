@@ -1,4 +1,4 @@
-# Licencia de Software Propietario
+### Licencia de Software Propietario
 
 Copyright (c) [2023] [Carolina Chavarriaga]
 
